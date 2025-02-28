@@ -1,0 +1,30 @@
+
+{
+  "classification_problem_type": {
+    "categorical": {
+      "num_of_classes": 4,
+      "class_label_names": [
+        "Large",
+        "Medium",
+        "No",
+        "Small"
+      ],
+      "activation_func": "sigmoid",
+      "loss_func": "categorical_crossentropy"
+    },
+    "binary": {
+      "num_of_classes": 2,
+      "class_label_names": [
+        "Crack Present",
+        "Crack Absent"
+      ],
+      "activation_func": "softmax",
+      "loss_func": "binary_crossentropy"
+    }
+  },
+  "time_format_str": "%Y-%m-%d",
+  "img_path": "../",
+  "saved_model_path": "../saved_trained_models",
+  "img_width": 100,
+  "img_height": 100
+}
